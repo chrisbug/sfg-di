@@ -1,0 +1,6 @@
+spring: 
+    profiles: qa
+guru:
+    username: QaUserYml
+    password: QadbPasswordYml
+    jdbcurl: QaUrlforDBYml

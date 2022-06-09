@@ -1,0 +1,18 @@
+spring:
+    profiles:
+        active: 
+        - dog
+        - EN
+        - dev
+guru:
+    username: superuseryml
+    password: dbPasswordyml
+    jdbcurl: someUrlforDByml
+
+---
+spring: 
+    profiles: prod
+guru:
+    username: superuserymlprod
+    password: dbPasswordymlprod
+    jdbcurl: someUrlforDBymlprod

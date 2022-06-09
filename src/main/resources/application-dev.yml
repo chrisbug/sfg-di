@@ -1,0 +1,6 @@
+spring: 
+    profiles: dev
+guru:
+    username: DevUserYml
+    password: DevdbPasswordYml
+    jdbcurl: DevUrlforDBYml
